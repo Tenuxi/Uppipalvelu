@@ -74,10 +74,7 @@ $page=isset($_GET['page'])?$_GET['page']:'aloitus'
     <!-- Pieni "Huom" Div -------------------------------------------------------->
 
 
-    <?php 
-    require("db.php"); 
-    echo $page;
-    ?>
+    
 
 <!--
     <div id="huomautus" class="alert alert-danger" role="alert">
@@ -135,6 +132,12 @@ $page=isset($_GET['page'])?$_GET['page']:'aloitus'
 
         -->
 
+    <!-- SQL YHTEYS ------------------------------------------------------------------->
+
+    <?php 
+        require("db.php"); 
+        echo $page;
+    ?>
 
     <!-- Footer ------------------------------------------------------------------->
     <footer class="footer mt-auto py-3">

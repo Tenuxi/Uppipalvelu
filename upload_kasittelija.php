@@ -60,7 +60,9 @@ if ($uploadOk == 0) {
 } else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
         echo '<div id="neutraali" class="alert alert-success" role="alert">';
-        echo "Tiedosto ". basename( $_FILES["fileToUpload"]["name"]). " on ladattu.";
+        echo "Tiedosto ". "'" . basename( $_FILES["fileToUpload"]["name"]). "'" . " on ladattu.";
+        echo "<br />";
+        echo "<a class='nav-link' href='<?php echo '?page=upload'; ?>Lataa lisää kuvia</a>";
         echo "</div>";
     } else {
         echo '<div id="huomautus" class="alert alert-danger" role="alert">';
