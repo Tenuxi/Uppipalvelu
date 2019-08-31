@@ -58,6 +58,11 @@ nav{
     box-shadow:  10px 10px 5px -5px rgba(176,42,64,1);
 }
 
+#huomautus2{
+    text-align: center;
+    width: 100%;
+}
+
 #neutraali{
     text-align: center;
     width: 60%;
@@ -78,6 +83,7 @@ nav{
 
 
 #leveaDiv{
+    display: inline-block;
     background-color: #ffffff;
     color: #000000;
     margin-left: 2.5%;
@@ -106,9 +112,9 @@ nav{
 #uploadForm{
     float: left;
     background-color: #ffffff;
+    width: 100%;
     min-height: 300px;
     margin-top: 35px;
-    margin-left: 25%;
     padding: 20px 10px 0px 10px;
 }
 
@@ -119,6 +125,36 @@ nav{
     box-shadow: 3px 3px 3px 0 #000000;
 }
 
+.updloadButton input{
+    background-color: green;
+}
+
+/*GALLERIA*/
+#flexGalleria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#flexKuva{
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 200px;
+    width: 150px;
+}
+
+#flexKuva p{
+    margin-top: 10px;
+    line-height: 5px;
+}
+
+#flexKuva img{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
 
 .footer{
     text-align: center;
