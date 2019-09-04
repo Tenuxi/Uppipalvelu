@@ -188,7 +188,7 @@ $page=isset($_GET['page'])?$_GET['page']:'aloitus'
     <!-- Footer ------------------------------------------------------------------->
     <footer class="footer mt-auto py-3">
         <div class="container">
-            <span class="text-muted">Template © Joonas - 2019</span>
+            <span class="text-muted">© Joonas - 2019</span>
         </div>
     </footer>
 

@@ -9,6 +9,7 @@ body{
     background-color: #ffffff;
     color: #131313;
     font-family: 'Josefin Sans', sans-serif;
+    background-image: url("img/bg.jpg");
 }
 
 header{
@@ -19,9 +20,7 @@ header{
     border-bottom: 2px solid #131313;
 }
 
-nav{
-    
-}
+
 
 #navigaatio{
     text-align: center;
@@ -92,6 +91,7 @@ nav{
     margin-bottom: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
+    min-height: 350px;
     border: 1px solid rgba(66,98,107,1);
     border-radius: 4px;
     box-shadow: 10px 10px 5px -5px rgba(66,98,107,1);
