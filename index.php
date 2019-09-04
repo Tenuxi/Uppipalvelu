@@ -180,7 +180,9 @@ $page=isset($_GET['page'])?$_GET['page']:'aloitus'
 
     <?php 
         require("db.php"); 
-        echo $page;
+        echo "<strong>Nykyinen sivu:</strong> " . $page;
+        echo "<br>";
+        echo "<strong>Session tiedot:</strong> " . $_SESSION;
     ?>
 
     <!-- Footer ------------------------------------------------------------------->
