@@ -1,7 +1,7 @@
 <?php
 
 $servername= 'localhost';
-$database='testi';
+$database='uppipalvelu';
 $username= 'testaaja';
 $password= 'salasana';
 $server= 'localhost';

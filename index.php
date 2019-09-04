@@ -42,6 +42,31 @@ $page=isset($_GET['page'])?$_GET['page']:'aloitus'
 
     <!-- Navigaatio -------------------------------------------------------------->
 
+    <?php 
+    if($page=="aloitus"){
+        include ("navigation.php");
+    }
+    if($page=="login"){
+        include ("navigation.php");
+    }
+    if($page=="galleria"){
+        include ("navigation.php");
+    } 
+    if($page=="upload"){
+        include ("navigation.php");
+    }
+    if($page=="login_index"){
+        include ("navigation2.php");
+    }
+    if($page=="omat_kuvat"){
+        include ("navigation2.php");
+    }
+    if($page=="omat_tiedot"){
+        include ("navigation2.php");
+    }
+    ?>
+
+<!--
     <nav>
     <ul id="navigaatio">
         <li class="nav-item">
@@ -58,7 +83,7 @@ $page=isset($_GET['page'])?$_GET['page']:'aloitus'
         </li>
     </ul>
     </nav>
-
+-->
 
     <!-- Nappit ------------------------------------------------------------------>
 
@@ -107,6 +132,25 @@ $page=isset($_GET['page'])?$_GET['page']:'aloitus'
             }
             if($page=="testi") {
                 include("testi.php");
+            }
+            if($page=="login_kasittelija") {
+                include("login_kasittelija.php");
+            }
+            if($page=="login_index") {
+                include("login_index.php");
+                
+            }
+            if($page=="logout") {
+                include("logout.php");
+            }
+            if($page=="logout_kasittelija") {
+                include("logout_kasittelija.php");
+            }
+            if($page=="omat_kuvat") {
+                include("omat_kuvat.php");
+            }
+            if($page=="omat_tiedot") {
+                include("omat_tiedot.php");
             }
            
         ?>

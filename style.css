@@ -90,6 +90,8 @@ nav{
     width: 95%;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border: 1px solid rgba(66,98,107,1);
     border-radius: 4px;
     box-shadow: 10px 10px 5px -5px rgba(66,98,107,1);
@@ -155,6 +157,13 @@ nav{
     width: 100px;
     height: 100px;
 }
+
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+  }
 
 .footer{
     text-align: center;
