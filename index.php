@@ -2,6 +2,7 @@
 
 $page=isset($_GET['page'])?$_GET['page']:'aloitus'
 
+
 ?>
 
 
@@ -182,7 +183,9 @@ $page=isset($_GET['page'])?$_GET['page']:'aloitus'
         require("db.php"); 
         echo "<strong>Nykyinen sivu:</strong> " . $page;
         echo "<br>";
-        echo "<strong>Session tiedot:</strong> " . $_SESSION;
+        echo "<strong>Session tiedot:</strong> " . $_SESSION['uname'];
+        echo "<br>";
+        echo "<strong>Session tiedot:</strong> " . $uname;
     ?>
 
     <!-- Footer ------------------------------------------------------------------->

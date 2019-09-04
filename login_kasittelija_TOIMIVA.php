@@ -18,7 +18,6 @@ if(isset($_POST['but_submit'])){
 
         if($count > 0){
             $_SESSION['uname'] = $uname;
-            
             echo "<script type='text/javascript'>
             window.location = 'index.php?page=login_index'
             </script>";
